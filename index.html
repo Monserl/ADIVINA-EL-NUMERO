@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Adivina el número</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Adivina el número</h1>
+      <p>La computadora ha generado un número entre 1 y 100. ¡Adivínalo!</p>
+      <div class="input-group">
+          <input type="number" id="numero" min="1" max="100">
+          <button id="adivinar">Adivinar</button>
+      </div>
+      <p id="mensaje"></p>
+      <div id="intentos"></div>
+      <div id="historial"></div>
+      <button id="reiniciar" style="display: none;">Jugar de nuevo</button>
+  </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
